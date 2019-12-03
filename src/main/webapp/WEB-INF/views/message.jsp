@@ -14,7 +14,7 @@
 <body>
 
 <div class="container">
-		<form action="sendMail" method="post">
+		<form action="sendMail2" method="post">
 				<table>
 						<tr>
 								<td>To:</td>
