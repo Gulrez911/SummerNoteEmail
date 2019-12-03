@@ -18,7 +18,7 @@ public class Student {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
-	private int id;
+	private long id;
 	private String fname;
 	private String lname;
 	private String email;
@@ -34,11 +34,11 @@ public class Student {
 		this.isDeleted = isDeleted;
 	}
 
-	public int getId() {
+	public long getId() {
 		return id;
 	}
 
-	public void setId(int id) {
+	public void setId(long id) {
 		this.id = id;
 	}
 
